@@ -2,7 +2,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package com.company.projectclothing;
 
 import javax.swing.JOptionPane;
 
@@ -36,17 +35,15 @@ public class ProjClothingOD extends javax.swing.JFrame {
 
         shopInterf = new javax.swing.JTabbedPane();
         loginPnl = new javax.swing.JPanel();
-        logoLbl = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         passwrdTxt = new javax.swing.JPasswordField();
         usernameTxt = new javax.swing.JTextField();
         usernamelbl = new javax.swing.JLabel();
         passwordlbl = new javax.swing.JLabel();
         loginBtn = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
         homeppnl = new javax.swing.JScrollPane();
         homePnl = new javax.swing.JPanel();
-        jPanel2 = new javax.swing.JPanel();
-        logoLbl2 = new javax.swing.JLabel();
         shopppnel = new javax.swing.JScrollPane();
         shopPnl = new javax.swing.JPanel();
         aboutpnl = new javax.swing.JPanel();
@@ -60,17 +57,14 @@ public class ProjClothingOD extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        shopInterf.setBackground(new java.awt.Color(51, 51, 51));
         shopInterf.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         shopInterf.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         shopInterf.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
 
         loginPnl.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        loginPnl.setLayout(null);
 
-        logoLbl.setFont(new java.awt.Font("Kindly Rewind", 0, 48)); // NOI18N
-        logoLbl.setText("Delara Clothing Line Co.");
-
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        jPanel1.setOpaque(false);
 
         usernamelbl.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         usernamelbl.setText("Username");
@@ -117,69 +111,28 @@ public class ProjClothingOD extends javax.swing.JFrame {
                 .addComponent(passwrdTxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(27, 27, 27)
                 .addComponent(loginBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(45, Short.MAX_VALUE))
+                .addContainerGap(49, Short.MAX_VALUE))
         );
 
-        javax.swing.GroupLayout loginPnlLayout = new javax.swing.GroupLayout(loginPnl);
-        loginPnl.setLayout(loginPnlLayout);
-        loginPnlLayout.setHorizontalGroup(
-            loginPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(loginPnlLayout.createSequentialGroup()
-                .addGroup(loginPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(loginPnlLayout.createSequentialGroup()
-                        .addGap(279, 279, 279)
-                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(loginPnlLayout.createSequentialGroup()
-                        .addGap(157, 157, 157)
-                        .addComponent(logoLbl)))
-                .addContainerGap(120, Short.MAX_VALUE))
-        );
-        loginPnlLayout.setVerticalGroup(
-            loginPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(loginPnlLayout.createSequentialGroup()
-                .addGap(46, 46, 46)
-                .addComponent(logoLbl)
-                .addGap(42, 42, 42)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(185, Short.MAX_VALUE))
-        );
+        loginPnl.add(jPanel1);
+        jPanel1.setBounds(270, 220, 387, 258);
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/projectdcloth/login.png"))); // NOI18N
+        jLabel4.setText("jLabel4");
+        loginPnl.add(jLabel4);
+        jLabel4.setBounds(0, 0, 940, 590);
 
         shopInterf.addTab("Login", loginPnl);
-
-        jPanel2.setBackground(new java.awt.Color(51, 51, 51));
-
-        logoLbl2.setFont(new java.awt.Font("Kindly Rewind", 0, 48)); // NOI18N
-        logoLbl2.setForeground(new java.awt.Color(153, 255, 255));
-        logoLbl2.setText("Welcome To our Store");
-
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(163, 163, 163)
-                .addComponent(logoLbl2)
-                .addGap(178, 178, 178))
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(22, 22, 22)
-                .addComponent(logoLbl2)
-                .addContainerGap(22, Short.MAX_VALUE))
-        );
 
         javax.swing.GroupLayout homePnlLayout = new javax.swing.GroupLayout(homePnl);
         homePnl.setLayout(homePnlLayout);
         homePnlLayout.setHorizontalGroup(
             homePnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGap(0, 921, Short.MAX_VALUE)
         );
         homePnlLayout.setVerticalGroup(
             homePnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(homePnlLayout.createSequentialGroup()
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 487, Short.MAX_VALUE))
+            .addGap(0, 587, Short.MAX_VALUE)
         );
 
         homeppnl.setViewportView(homePnl);
@@ -360,15 +313,13 @@ public class ProjClothingOD extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JButton loginBtn;
     private javax.swing.JPanel loginPnl;
-    private javax.swing.JLabel logoLbl;
     private javax.swing.JLabel logoLbl1;
-    private javax.swing.JLabel logoLbl2;
     private javax.swing.JLabel passwordlbl;
     private javax.swing.JPasswordField passwrdTxt;
     private javax.swing.JTabbedPane shopInterf;
