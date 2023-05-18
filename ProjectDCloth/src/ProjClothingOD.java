@@ -46,6 +46,36 @@ public class ProjClothingOD extends javax.swing.JFrame {
         homePnl = new javax.swing.JPanel();
         shopppnel = new javax.swing.JScrollPane();
         shopPnl = new javax.swing.JPanel();
+        item4ico = new javax.swing.JLabel();
+        item1ico = new javax.swing.JLabel();
+        item2ico = new javax.swing.JLabel();
+        item3ico = new javax.swing.JLabel();
+        item12ico = new javax.swing.JLabel();
+        item5ico = new javax.swing.JLabel();
+        item9ico = new javax.swing.JLabel();
+        item7ico = new javax.swing.JLabel();
+        item6ico1 = new javax.swing.JLabel();
+        item8ico1 = new javax.swing.JLabel();
+        item10ico = new javax.swing.JLabel();
+        item15ico = new javax.swing.JLabel();
+        addcart1 = new javax.swing.JButton();
+        addcart2 = new javax.swing.JButton();
+        addcart4 = new javax.swing.JButton();
+        addcart3 = new javax.swing.JButton();
+        addcart5 = new javax.swing.JButton();
+        addcart6 = new javax.swing.JButton();
+        addcart7 = new javax.swing.JButton();
+        addcart8 = new javax.swing.JButton();
+        addcart9 = new javax.swing.JButton();
+        addcart10 = new javax.swing.JButton();
+        addcart11 = new javax.swing.JButton();
+        addcart12 = new javax.swing.JButton();
+        item11ico = new javax.swing.JLabel();
+        item13ico = new javax.swing.JLabel();
+        item14ico = new javax.swing.JLabel();
+        addcart13 = new javax.swing.JButton();
+        addcart15 = new javax.swing.JButton();
+        addcart14 = new javax.swing.JButton();
         aboutpnl = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
@@ -124,33 +154,226 @@ public class ProjClothingOD extends javax.swing.JFrame {
 
         shopInterf.addTab("Login", loginPnl);
 
-        javax.swing.GroupLayout homePnlLayout = new javax.swing.GroupLayout(homePnl);
-        homePnl.setLayout(homePnlLayout);
-        homePnlLayout.setHorizontalGroup(
-            homePnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 921, Short.MAX_VALUE)
-        );
-        homePnlLayout.setVerticalGroup(
-            homePnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 587, Short.MAX_VALUE)
-        );
-
+        homePnl.setLayout(null);
         homeppnl.setViewportView(homePnl);
 
         shopInterf.addTab("Home", homeppnl);
+
+        shopppnel.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+
+        item4ico.setText("upper4");
+        item4ico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        item1ico.setText("upper1");
+        item1ico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        item2ico.setText("upper2");
+        item2ico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        item3ico.setText("upper3");
+        item3ico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        item12ico.setText("upper22");
+        item12ico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        item5ico.setText("upper5");
+        item5ico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        item9ico.setText("lower4");
+        item9ico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        item7ico.setText("lower2");
+        item7ico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        item6ico1.setText("lower1");
+        item6ico1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        item8ico1.setText("lower3");
+        item8ico1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        item10ico.setText("lower5");
+        item10ico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        item15ico.setText("upper11");
+        item15ico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        addcart1.setText("jButton1");
+
+        addcart2.setText("jButton1");
+
+        addcart4.setText("jButton1");
+
+        addcart3.setText("jButton1");
+
+        addcart5.setText("jButton3");
+
+        addcart6.setText("jButton3");
+
+        addcart7.setText("jButton3");
+
+        addcart8.setText("jButton3");
+
+        addcart9.setText("jButton3");
+
+        addcart10.setText("jButton3");
+
+        addcart11.setText("jButton3");
+
+        addcart12.setText("jButton3");
+
+        item11ico.setText("upper11");
+        item11ico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        item13ico.setText("upper11");
+        item13ico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        item14ico.setText("upper11");
+        item14ico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        addcart13.setText("jButton3");
+
+        addcart15.setText("jButton3");
+
+        addcart14.setText("jButton3");
 
         javax.swing.GroupLayout shopPnlLayout = new javax.swing.GroupLayout(shopPnl);
         shopPnl.setLayout(shopPnlLayout);
         shopPnlLayout.setHorizontalGroup(
             shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 933, Short.MAX_VALUE)
+            .addGroup(shopPnlLayout.createSequentialGroup()
+                .addGap(93, 93, 93)
+                .addComponent(addcart1)
+                .addGap(120, 120, 120)
+                .addComponent(addcart2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(addcart3)
+                .addGap(127, 127, 127)
+                .addComponent(addcart4)
+                .addGap(133, 133, 133))
+            .addGroup(shopPnlLayout.createSequentialGroup()
+                .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(shopPnlLayout.createSequentialGroup()
+                        .addGap(58, 58, 58)
+                        .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(shopPnlLayout.createSequentialGroup()
+                                .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(item1ico, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(item5ico, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(55, 55, 55)
+                                .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(item2ico, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(item6ico1, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(shopPnlLayout.createSequentialGroup()
+                                .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(item9ico, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(item13ico, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(57, 57, 57)
+                                .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(item10ico, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(item14ico, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addGroup(shopPnlLayout.createSequentialGroup()
+                                .addGap(55, 55, 55)
+                                .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(item12ico, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(shopPnlLayout.createSequentialGroup()
+                                        .addComponent(item3ico, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(55, 55, 55)
+                                        .addComponent(item4ico, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(shopPnlLayout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(item15ico, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(item11ico, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGroup(shopPnlLayout.createSequentialGroup()
+                                            .addComponent(item7ico, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(item8ico1, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
+                    .addGroup(shopPnlLayout.createSequentialGroup()
+                        .addGap(91, 91, 91)
+                        .addComponent(addcart5)
+                        .addGap(126, 126, 126)
+                        .addComponent(addcart6)
+                        .addGap(121, 121, 121)
+                        .addComponent(addcart7)
+                        .addGap(125, 125, 125)
+                        .addComponent(addcart8))
+                    .addGroup(shopPnlLayout.createSequentialGroup()
+                        .addGap(92, 92, 92)
+                        .addComponent(addcart9)
+                        .addGap(126, 126, 126)
+                        .addComponent(addcart10)
+                        .addGap(121, 121, 121)
+                        .addComponent(addcart11)
+                        .addGap(124, 124, 124)
+                        .addComponent(addcart12))
+                    .addGroup(shopPnlLayout.createSequentialGroup()
+                        .addGap(93, 93, 93)
+                        .addComponent(addcart13)
+                        .addGap(126, 126, 126)
+                        .addComponent(addcart14)
+                        .addGap(119, 119, 119)
+                        .addComponent(addcart15)))
+                .addContainerGap(99, Short.MAX_VALUE))
         );
         shopPnlLayout.setVerticalGroup(
             shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 584, Short.MAX_VALUE)
+            .addGroup(shopPnlLayout.createSequentialGroup()
+                .addGap(39, 39, 39)
+                .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(item2ico, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(item1ico, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(item3ico, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(item4ico, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(addcart1)
+                    .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(addcart2)
+                        .addComponent(addcart3))
+                    .addComponent(addcart4))
+                .addGap(23, 23, 23)
+                .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(item5ico, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(item6ico1, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(item7ico, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(item8ico1, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(addcart5)
+                    .addComponent(addcart6)
+                    .addComponent(addcart7)
+                    .addComponent(addcart8))
+                .addGap(23, 23, 23)
+                .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(item9ico, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(item10ico, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(item12ico, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(item11ico, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(addcart9)
+                    .addComponent(addcart10)
+                    .addComponent(addcart11)
+                    .addComponent(addcart12))
+                .addGap(33, 33, 33)
+                .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(item13ico, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(item14ico, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(item15ico, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(addcart13)
+                    .addComponent(addcart15)
+                    .addComponent(addcart14))
+                .addContainerGap(116, Short.MAX_VALUE))
         );
 
         shopppnel.setViewportView(shopPnl);
+        shopppnel.setHorizontalScrollBarPolicy(shopppnel.HORIZONTAL_SCROLLBAR_NEVER);
 
         shopInterf.addTab("Shop", shopppnel);
 
@@ -307,9 +530,39 @@ public class ProjClothingOD extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel aboutpnl;
+    private javax.swing.JButton addcart1;
+    private javax.swing.JButton addcart10;
+    private javax.swing.JButton addcart11;
+    private javax.swing.JButton addcart12;
+    private javax.swing.JButton addcart13;
+    private javax.swing.JButton addcart14;
+    private javax.swing.JButton addcart15;
+    private javax.swing.JButton addcart2;
+    private javax.swing.JButton addcart3;
+    private javax.swing.JButton addcart4;
+    private javax.swing.JButton addcart5;
+    private javax.swing.JButton addcart6;
+    private javax.swing.JButton addcart7;
+    private javax.swing.JButton addcart8;
+    private javax.swing.JButton addcart9;
     private javax.swing.JPanel homePnl;
     private javax.swing.JScrollPane homeppnl;
     private javax.swing.JLabel infolbl;
+    private javax.swing.JLabel item10ico;
+    private javax.swing.JLabel item11ico;
+    private javax.swing.JLabel item12ico;
+    private javax.swing.JLabel item13ico;
+    private javax.swing.JLabel item14ico;
+    private javax.swing.JLabel item15ico;
+    private javax.swing.JLabel item1ico;
+    private javax.swing.JLabel item2ico;
+    private javax.swing.JLabel item3ico;
+    private javax.swing.JLabel item4ico;
+    private javax.swing.JLabel item5ico;
+    private javax.swing.JLabel item6ico1;
+    private javax.swing.JLabel item7ico;
+    private javax.swing.JLabel item8ico1;
+    private javax.swing.JLabel item9ico;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
