@@ -79,7 +79,7 @@ public class ProjClothingOD extends javax.swing.JFrame {
         addcart15 = new javax.swing.JButton();
         addcart14 = new javax.swing.JButton();
         checkoutPnl = new javax.swing.JPanel();
-        jPanel2 = new javax.swing.JPanel();
+        shippingPnl = new javax.swing.JPanel();
         shippingLbl = new javax.swing.JLabel();
         fnameTxt = new javax.swing.JTextField();
         lnameTxt = new javax.swing.JTextField();
@@ -92,16 +92,16 @@ public class ProjClothingOD extends javax.swing.JFrame {
         zipTxt = new javax.swing.JTextField();
         phoneTxt = new javax.swing.JTextField();
         continueBtn = new javax.swing.JButton();
-        jPanel5 = new javax.swing.JPanel();
+        contactPnl = new javax.swing.JPanel();
         contactinfoLbl = new javax.swing.JLabel();
         emailtxt = new javax.swing.JTextField();
-        jPanel6 = new javax.swing.JPanel();
+        paymentPnl = new javax.swing.JPanel();
         PayBtn = new javax.swing.JButton();
         gcashMeth = new javax.swing.JRadioButton();
         priceshipLbl = new javax.swing.JLabel();
         codMeth = new javax.swing.JRadioButton();
         creditMeth = new javax.swing.JRadioButton();
-        jPanel7 = new javax.swing.JPanel();
+        itemPricepnl = new javax.swing.JPanel();
         checkoutitemIcon = new javax.swing.JLabel();
         QuantityLbl = new javax.swing.JLabel();
         priceLbl = new javax.swing.JLabel();
@@ -361,9 +361,8 @@ public class ProjClothingOD extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(addcart1)
-                    .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(addcart2)
-                        .addComponent(addcart3))
+                    .addComponent(addcart2)
+                    .addComponent(addcart3)
                     .addComponent(addcart4))
                 .addGap(23, 23, 23)
                 .addGroup(shopPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -407,7 +406,7 @@ public class ProjClothingOD extends javax.swing.JFrame {
 
         shopInterf.addTab("Shop", shopppnel);
 
-        jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        shippingPnl.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         shippingLbl.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         shippingLbl.setText("Shipping Address");
@@ -434,20 +433,20 @@ public class ProjClothingOD extends javax.swing.JFrame {
 
         continueBtn.setText("Continue to Payment");
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
+        javax.swing.GroupLayout shippingPnlLayout = new javax.swing.GroupLayout(shippingPnl);
+        shippingPnl.setLayout(shippingPnlLayout);
+        shippingPnlLayout.setHorizontalGroup(
+            shippingPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(shippingPnlLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(shippingPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(shippingPnlLayout.createSequentialGroup()
                         .addComponent(shippingLbl)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(shippingPnlLayout.createSequentialGroup()
+                        .addGroup(shippingPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(phoneTxt)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, shippingPnlLayout.createSequentialGroup()
                                 .addComponent(countryTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(stateTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -455,25 +454,25 @@ public class ProjClothingOD extends javax.swing.JFrame {
                                 .addComponent(zipTxt, javax.swing.GroupLayout.DEFAULT_SIZE, 131, Short.MAX_VALUE))
                             .addComponent(appartmentTxt)
                             .addComponent(addressTxt)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
+                            .addGroup(shippingPnlLayout.createSequentialGroup()
                                 .addComponent(fnameTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 169, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(lnameTxt))
                             .addComponent(companyTxt)
                             .addComponent(cityTxt, javax.swing.GroupLayout.Alignment.TRAILING))
                         .addContainerGap())))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, shippingPnlLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(continueBtn)
                 .addContainerGap())
         );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
+        shippingPnlLayout.setVerticalGroup(
+            shippingPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(shippingPnlLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(shippingLbl)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                .addGroup(shippingPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(lnameTxt, javax.swing.GroupLayout.DEFAULT_SIZE, 33, Short.MAX_VALUE)
                     .addComponent(fnameTxt))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -485,7 +484,7 @@ public class ProjClothingOD extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(cityTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(shippingPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(countryTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(stateTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(zipTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -496,29 +495,29 @@ public class ProjClothingOD extends javax.swing.JFrame {
                 .addGap(26, 26, 26))
         );
 
-        jPanel5.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        contactPnl.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         contactinfoLbl.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         contactinfoLbl.setText("Contact Information");
 
         emailtxt.setText("Email");
 
-        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
-        jPanel5.setLayout(jPanel5Layout);
-        jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
+        javax.swing.GroupLayout contactPnlLayout = new javax.swing.GroupLayout(contactPnl);
+        contactPnl.setLayout(contactPnlLayout);
+        contactPnlLayout.setHorizontalGroup(
+            contactPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(contactPnlLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel5Layout.createSequentialGroup()
+                .addGroup(contactPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(contactPnlLayout.createSequentialGroup()
                         .addComponent(contactinfoLbl)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addComponent(emailtxt))
                 .addContainerGap())
         );
-        jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
+        contactPnlLayout.setVerticalGroup(
+            contactPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(contactPnlLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(contactinfoLbl)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -526,7 +525,7 @@ public class ProjClothingOD extends javax.swing.JFrame {
                 .addContainerGap(30, Short.MAX_VALUE))
         );
 
-        jPanel6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        paymentPnl.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         PayBtn.setText("Pay");
 
@@ -538,14 +537,14 @@ public class ProjClothingOD extends javax.swing.JFrame {
 
         creditMeth.setText("Credit Card");
 
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+        javax.swing.GroupLayout paymentPnlLayout = new javax.swing.GroupLayout(paymentPnl);
+        paymentPnl.setLayout(paymentPnlLayout);
+        paymentPnlLayout.setHorizontalGroup(
+            paymentPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, paymentPnlLayout.createSequentialGroup()
                 .addContainerGap(37, Short.MAX_VALUE)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                .addGroup(paymentPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, paymentPnlLayout.createSequentialGroup()
                         .addComponent(gcashMeth)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(codMeth)
@@ -555,11 +554,11 @@ public class ProjClothingOD extends javax.swing.JFrame {
                     .addComponent(PayBtn, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
+        paymentPnlLayout.setVerticalGroup(
+            paymentPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(paymentPnlLayout.createSequentialGroup()
                 .addGap(29, 29, 29)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(paymentPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(creditMeth)
                     .addComponent(codMeth)
                     .addComponent(gcashMeth))
@@ -570,7 +569,7 @@ public class ProjClothingOD extends javax.swing.JFrame {
                 .addContainerGap(62, Short.MAX_VALUE))
         );
 
-        jPanel7.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        itemPricepnl.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         checkoutitemIcon.setText("Item Icon");
         checkoutitemIcon.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -579,26 +578,26 @@ public class ProjClothingOD extends javax.swing.JFrame {
 
         priceLbl.setText("Price");
 
-        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
-        jPanel7.setLayout(jPanel7Layout);
-        jPanel7Layout.setHorizontalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel7Layout.createSequentialGroup()
+        javax.swing.GroupLayout itemPricepnlLayout = new javax.swing.GroupLayout(itemPricepnl);
+        itemPricepnl.setLayout(itemPricepnlLayout);
+        itemPricepnlLayout.setHorizontalGroup(
+            itemPricepnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(itemPricepnlLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGroup(itemPricepnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(itemPricepnlLayout.createSequentialGroup()
                         .addComponent(checkoutitemIcon, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, itemPricepnlLayout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGroup(itemPricepnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(priceLbl)
                             .addComponent(QuantityLbl))
                         .addGap(27, 27, 27))))
         );
-        jPanel7Layout.setVerticalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel7Layout.createSequentialGroup()
+        itemPricepnlLayout.setVerticalGroup(
+            itemPricepnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(itemPricepnlLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(checkoutitemIcon, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(2, 2, 2)
@@ -615,15 +614,15 @@ public class ProjClothingOD extends javax.swing.JFrame {
             .addGroup(checkoutPnlLayout.createSequentialGroup()
                 .addGap(72, 72, 72)
                 .addGroup(checkoutPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(contactPnl, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(shippingPnl, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGroup(checkoutPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(checkoutPnlLayout.createSequentialGroup()
                         .addGap(31, 31, 31)
-                        .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(itemPricepnl, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(checkoutPnlLayout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 122, Short.MAX_VALUE)
-                        .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(paymentPnl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
         checkoutPnlLayout.setVerticalGroup(
@@ -632,13 +631,13 @@ public class ProjClothingOD extends javax.swing.JFrame {
                 .addGap(30, 30, 30)
                 .addGroup(checkoutPnlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(checkoutPnlLayout.createSequentialGroup()
-                        .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(contactPnl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 398, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(shippingPnl, javax.swing.GroupLayout.PREFERRED_SIZE, 398, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(checkoutPnlLayout.createSequentialGroup()
-                        .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(itemPricepnl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(paymentPnl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -820,6 +819,7 @@ public class ProjClothingOD extends javax.swing.JFrame {
     private javax.swing.JTextField cityTxt;
     private javax.swing.JRadioButton codMeth;
     private javax.swing.JTextField companyTxt;
+    private javax.swing.JPanel contactPnl;
     private javax.swing.JLabel contactinfoLbl;
     private javax.swing.JButton continueBtn;
     private javax.swing.JTextField countryTxt;
@@ -845,27 +845,26 @@ public class ProjClothingOD extends javax.swing.JFrame {
     private javax.swing.JLabel item7ico;
     private javax.swing.JLabel item8ico1;
     private javax.swing.JLabel item9ico;
+    private javax.swing.JPanel itemPricepnl;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel7;
     private javax.swing.JTextField lnameTxt;
     private javax.swing.JButton loginBtn;
     private javax.swing.JPanel loginPnl;
     private javax.swing.JLabel logoLbl1;
     private javax.swing.JLabel passwordlbl;
     private javax.swing.JPasswordField passwrdTxt;
+    private javax.swing.JPanel paymentPnl;
     private javax.swing.JTextField phoneTxt;
     private javax.swing.JLabel priceLbl;
     private javax.swing.JLabel priceshipLbl;
     private javax.swing.JLabel shippingLbl;
+    private javax.swing.JPanel shippingPnl;
     private javax.swing.JTabbedPane shopInterf;
     private javax.swing.JPanel shopPnl;
     private javax.swing.JScrollPane shopppnel;
